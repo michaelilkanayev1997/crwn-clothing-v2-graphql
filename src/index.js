@@ -10,7 +10,7 @@ import "./index.scss";
 
 const client = new ApolloClient({
   uri: "https://crwn-clothing.com/",
-  cache: new InMemoryCache(),
+  cache: new InMemoryCache(), // caching data to local browser cache
 });
 
 const rootElement = document.getElementById("root");
